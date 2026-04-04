@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Trenitalia",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/checkedResource",
+    "output": "trenitalia.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "Trenord",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131494/checkedResource",
+    "output": "trenord.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "ATV Verona",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/6998/checkedResource",
+    "output": "atv.gtfs.zip",
+    "make_shapes": true
+  },
+  {
+    "name": "Brescia Trasporti Nord",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131605/checkedResource",
+    "output": "brescianord.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "Brescia Trasporti",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/132312/checkedResource",
+    "output": "brescia.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "Brescia Trasporti Sud",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/132058/checkedResource",
+    "output": "bresciasud.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "Arriva",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131383/checkedResource",
+    "output": "arriva.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "Busitalia Veneto Gomma",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/922575/checkedResource",
+    "output": "bivg.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "ATVO",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/180673/checkedResource",
+    "output": "atvo.gtfs.zip",
+    "make_shapes": false
+  },
+  {
+    "name": "ATM",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/191301/checkedResource",
+    "output": "atm.gtfs.zip",
+    "make_shapes": false
+  }
+]

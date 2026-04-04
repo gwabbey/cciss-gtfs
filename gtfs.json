@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Trentino Trasporti Urbano",
+    "url": "https://www.trentinotrasporti.it/opendata/google_transit_urbano_tte.zip",
+    "output": "ttu.gtfs.zip"
+  },
+  {
+    "name": "Trentino Trasporti Extraurbano",
+    "url": "https://www.trentinotrasporti.it/opendata/google_transit_extraurbano_tte.zip",
+    "output": "tte.gtfs.zip"
+  },
+  {
+    "name": "STA Bolzano",
+    "url": "https://gtfs.api.opendatahub.com/v1/dataset/sta-time-tables/raw",
+    "output": "sta.gtfs.zip"
+  },
+  {
+    "name": "ACTV Venezia Terra",
+    "url": "https://actv.avmspa.it/sites/default/files/attachments/opendata/automobilistico/actv_aut.zip",
+    "output": "actvt.gtfs.zip"
+  },
+  {
+    "name": "ACTV Venezia Mare",
+    "url": "https://actv.avmspa.it/sites/default/files/attachments/opendata/navigazione/actv_nav.zip",
+    "output": "actvm.gtfs.zip"
+  },
+  {
+    "name": "MOM Treviso",
+    "url": "https://mobilitadimarca.it/treviso/google_transit.zip",
+    "output": "mom.gtfs.zip"
+  },
+  {
+    "name": "BIV Padova Tram",
+    "url": "https://gtfs-biv.fsbusitalia.com/GTFS-BIV-TRAM/gtfs-biv-tram.zip",
+    "output": "bivt.gtfs.zip"
+  },
+  {
+    "name": "EAV Ente Volturno Autonomo",
+    "url": "https://www.wimob.it/cfile/download.php?file=google-transit.zip",
+    "output": "eav.gtfs.zip"
+  }
+]
