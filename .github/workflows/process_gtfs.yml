@@ -31,7 +31,15 @@ jobs:
           sudo apt-get install -y cmake libzip-dev libboost-all-dev libexpat1-dev zlib1g-dev zip
           pip install -r requirements.txt
 
-      - name: Build Pfaedle
+      - name: Cache Pfaedle Binary
+        id: cache-pfaedle
+        uses: actions/cache@v4
+        with:
+          path: /usr/local/bin/pfaedle
+          key: pfaedle-bin-v1
+
+      - name: Build Pfaedle if not cached
+        if: steps.cache-pfaedle.outputs.cache-hit != 'true'
         run: |
           git clone https://github.com/ad-freiburg/pfaedle.git
           mkdir -p pfaedle/build && cd pfaedle/build
