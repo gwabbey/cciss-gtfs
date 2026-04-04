@@ -62,10 +62,8 @@ jobs:
           pfaedle -x transit.osm.pbf atv.gtfs.zip -D
           cd gtfs-out && zip -r ../atv.gtfs.zip .
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          publish_branch: gh-pages
-          keep_files: true
+      - name: Upload Files to Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload latest *.gtfs.zip --repo ${{ github.repository }} --clobber
