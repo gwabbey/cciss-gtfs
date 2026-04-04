@@ -47,7 +47,7 @@ jobs:
       - name: Run Pfaedle Map Matching
         run: |
           pfaedle -x transit.osm.pbf atv.gtfs.zip -D
-          cd gtfs_out && zip -r ../atv.gtfs.zip .
+          cd gtfs-out && zip -r ../atv.gtfs.zip .
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
