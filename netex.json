@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Trenitalia",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/checkedResource",
+    "output": "trenitalia.gtfs.zip"
+  },
+  {
+    "name": "Trenord",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131494/checkedResource",
+    "output": "trenord.gtfs.zip"
+  },
+  {
+    "name": "ATV Verona",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/6998/checkedResource",
+    "output": "atv.gtfs.zip"
+  },
+  {
+    "name": "Brescia Trasporti Nord",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131605/checkedResource",
+    "output": "brescianord.gtfs.zip"
+  },
+  {
+    "name": "Brescia Trasporti",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/132312/checkedResource",
+    "output": "brescia.gtfs.zip"
+  },
+  {
+    "name": "Brescia Trasporti Sud",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/132058/checkedResource",
+    "output": "bresciasud.gtfs.zip"
+  },
+  {
+    "name": "Arriva",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131383/checkedResource",
+    "output": "arriva.gtfs.zip"
+  },
+  {
+    "name": "Busitalia Veneto Gomma",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/922575/checkedResource",
+    "output": "bivg.gtfs.zip"
+  },
+  {
+    "name": "ATVO",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/180673/checkedResource",
+    "output": "atvo.gtfs.zip"
+  },
+  {
+    "name": "DolomitiBus",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/180613/checkedResource",
+    "output": "dobu.gtfs.zip"
+  }
+]

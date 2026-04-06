@@ -1,0 +1,47 @@
+name: CCISS NeTEx to GTFS
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process-transit-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Processing Scripts
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 30
+          max_attempts: 3
+          retry_wait_seconds: 30
+          command: python3 convert-netex.py --json netex.json --out .
+
+      - name: Update releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for file in *.gtfs.zip; do
+            if [ -f "$file" ]; then
+              echo "Processing $file..."
+              gh release delete-asset latest "$file" -y || echo "$file not in release yet"
+              gh release upload latest "$file" --repo ${{ github.repository }}
+            fi
+          done
