@@ -35,6 +35,11 @@
     "output": "arriva.gtfs.zip"
   },
   {
+    "name": "Busitalia",
+    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/180710/checkedResource",
+    "output": "busitalia.gtfs.zip"
+  },
+  {
     "name": "Busitalia Veneto Gomma",
     "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/922575/checkedResource",
     "output": "bivg.gtfs.zip"
@@ -45,7 +50,7 @@
     "output": "atvo.gtfs.zip"
   },
   {
-    "name": "DolomitiBus",
+    "name": "Dolomitibus",
     "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/180613/checkedResource",
     "output": "dobu.gtfs.zip"
   }
