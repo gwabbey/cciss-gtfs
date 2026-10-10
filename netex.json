@@ -1,10 +1,5 @@
 [
   {
-    "name": "Trenitalia",
-    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/checkedResource",
-    "output": "trenitalia.gtfs.zip"
-  },
-  {
     "name": "Trenord",
     "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131494/checkedResource",
     "output": "trenord.gtfs.zip"
@@ -28,21 +23,6 @@
     "name": "Brescia Trasporti Sud",
     "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/132058/checkedResource",
     "output": "bresciasud.gtfs.zip"
-  },
-  {
-    "name": "Arriva",
-    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/131383/checkedResource",
-    "output": "arriva.gtfs.zip"
-  },
-  {
-    "name": "Busitalia",
-    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/180710/checkedResource",
-    "output": "busitalia.gtfs.zip"
-  },
-  {
-    "name": "Busitalia Veneto Gomma",
-    "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/922575/checkedResource",
-    "output": "bivg.gtfs.zip"
   },
   {
     "name": "ATVO",
